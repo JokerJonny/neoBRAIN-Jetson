@@ -20,7 +20,7 @@ A powerful, fully local AI brain built for **NVIDIA Jetson** platforms. Designed
 
 ### 🎯 Recommended Hardware
 
-![Jetson Orin Nano](https://raw.githubusercontent.com/JokerJonny/neoBRAIN-Jetson/main/docs/images/jetson-nano.jpg)
+[![Jetson Orin Nano](https://raw.githubusercontent.com/JokerJonny/neoBRAIN-Jetson/main/docs/images/jetson-nano.jpg)](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/)
 
 **Best Choice**: NVIDIA Jetson Orin Nano Super 8GB
 
