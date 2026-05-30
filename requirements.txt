@@ -1,0 +1,12 @@
+pyyaml
+numpy
+pillow
+opencv-python-headless
+sounddevice
+pyaudio
+faster-whisper
+piper-tts
+langchain
+langchain-community
+chromadb
+torch torchvision torchaudio --extra-index-url https://pypi.jetson-ai-lab.io/jp6/cu126
