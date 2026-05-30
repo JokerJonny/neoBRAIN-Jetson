@@ -1,6 +1,6 @@
 # 🧠 neoBRAIN-Jetson
 
-![NeoBrain Banner](https://raw.githubusercontent.com/JokerJonny/neoBRAIN-Jetson/main/docs/banner.jpg)
+![neoBRAIN Logo](https://neo-shade.com/neoBRAIN.jpg)
 
 **neoBRAIN v1.0** — Portable Edge AI Robotic Brain for **NeoLegacy**
 
@@ -20,14 +20,7 @@ A powerful, fully local AI brain built for **NVIDIA Jetson** platforms. Designed
 
 ### 🎯 Recommended Hardware
 
-<grok-card data-id="6f1702" data-type="image_card" data-plain-type="render_searched_image"  data-arg-image_id="8jf3g"  data-arg-size="LARGE" ></grok-card>
-
-
-<grok-card data-id="f73cd3" data-type="image_card" data-plain-type="render_searched_image"  data-arg-image_id="lb7fe"  data-arg-size="LARGE" ></grok-card>
-
-
-<grok-card data-id="17be25" data-type="image_card" data-plain-type="render_searched_image"  data-arg-image_id="5g5ef"  data-arg-size="LARGE" ></grok-card>
-
+![Jetson Orin Nano](https://raw.githubusercontent.com/JokerJonny/neoBRAIN-Jetson/main/docs/images/jetson-nano.jpg)
 
 **Best Choice**: NVIDIA Jetson Orin Nano Super 8GB
 
