@@ -1,30 +1,48 @@
-# neoBRAIN-Jetson
+# 🧠 neoBRAIN-Jetson
 
-**neoBRAIN v1.0** — Portable Edge AI Robotic Brain for NeoLegacy
+![NeoBrain Banner](https://raw.githubusercontent.com/JokerJonny/neoBRAIN-Jetson/main/docs/banner.jpg)
 
-A modular, fully local AI brain built for **NVIDIA Jetson** platforms. Designed to preserve legacy, enable intelligent robotics, and run powerful LLMs/VLMs on-device.
+**neoBRAIN v1.0** — Portable Edge AI Robotic Brain for **NeoLegacy**
 
-### Features
-- Local LLM inference (llama.cpp)
-- Voice interaction (STT + TTS)
-- Legacy memory & personality system
-- ROS2-ready robotics support
-- Docker support
+A powerful, fully local AI brain built for **NVIDIA Jetson** platforms. Designed to preserve human legacy, power intelligent robots, and run advanced LLMs/VLMs on-device with zero cloud dependency.
 
-### Quick Start
+---
+
+### ✨ Key Features
+- **Local LLM Inference** (llama.cpp + TensorRT)
+- **Voice Interaction** (Whisper STT + Piper TTS)
+- **Legacy Memory & Personality System**
+- **ROS2 Robotics Ready**
+- **Low Power Edge Computing**
+- **Docker Support**
+
+---
+
+### 🎯 Recommended Hardware
+
+<grok-card data-id="6f1702" data-type="image_card" data-plain-type="render_searched_image"  data-arg-image_id="8jf3g"  data-arg-size="LARGE" ></grok-card>
+
+
+<grok-card data-id="f73cd3" data-type="image_card" data-plain-type="render_searched_image"  data-arg-image_id="lb7fe"  data-arg-size="LARGE" ></grok-card>
+
+
+<grok-card data-id="17be25" data-type="image_card" data-plain-type="render_searched_image"  data-arg-image_id="5g5ef"  data-arg-size="LARGE" ></grok-card>
+
+
+**Best Choice**: NVIDIA Jetson Orin Nano Super 8GB
+
+---
+
+### 🚀 Quick Start
 
 ```bash
-# 1. Clone
 git clone https://github.com/JokerJonny/neoBRAIN-Jetson.git
 cd neoBRAIN-Jetson
 
-# 2. Setup
 chmod +x setup.sh
 ./setup.sh
 
-# 3. Download models
 chmod +x scripts/download_models.sh
 ./scripts/download_models.sh
 
-# 4. Run demo
 python examples/simple_chat_robot.py
