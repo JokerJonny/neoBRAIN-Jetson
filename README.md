@@ -2,28 +2,29 @@
 
 **neoBRAIN v1.0** — Portable Edge AI Robotic Brain for NeoLegacy
 
-A modular, on-device AI brain designed to run on **NVIDIA Jetson Orin Nano Super** and higher. Combines local LLMs, Vision, Speech, Memory, and Robotics control — all running locally with no cloud dependency.
+A modular, fully local AI brain built for **NVIDIA Jetson** platforms. Designed to preserve legacy, enable intelligent robotics, and run powerful LLMs/VLMs on-device.
 
-### Goals
-- Preserve legacy voices, stories, and personalities on edge devices
-- Enable intelligent real-time robotic behavior
-- Low power, portable, and fully open source
-
-### Key Features
-- Local LLM & VLM inference (llama.cpp + TensorRT)
-- Voice interaction (Whisper STT + Piper TTS)
-- Persistent memory system
-- ROS2 robotics integration
-- Legacy personality core
-
-### Recommended Hardware
-- **Jetson Orin Nano Super 8GB** (best starting point)
+### Features
+- Local LLM inference (llama.cpp)
+- Voice interaction (STT + TTS)
+- Legacy memory & personality system
+- ROS2-ready robotics support
+- Docker support
 
 ### Quick Start
 
 ```bash
+# 1. Clone
 git clone https://github.com/JokerJonny/neoBRAIN-Jetson.git
 cd neoBRAIN-Jetson
+
+# 2. Setup
 chmod +x setup.sh
 ./setup.sh
-python src/core/brain.py
+
+# 3. Download models
+chmod +x scripts/download_models.sh
+./scripts/download_models.sh
+
+# 4. Run demo
+python examples/simple_chat_robot.py
